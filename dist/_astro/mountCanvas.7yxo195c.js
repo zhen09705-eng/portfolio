@@ -1,0 +1,1 @@
+function d(o,a,{persist:n=!1}={}){const r=()=>{const e=document.querySelector(o);if(!e)return;const t=e;if(n&&t.__mounted)return;t.__mounted=!0;const s=a(e);n||document.addEventListener("astro:before-swap",()=>s(),{once:!0})};document.addEventListener("astro:page-load",r)}export{d as m};

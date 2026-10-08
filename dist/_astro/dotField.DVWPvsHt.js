@@ -1,0 +1,1 @@
+const T=[.35,.35,.35],n=[.6,.6,.6],o=[.9,.9,.9],a=.14,c=.06,_=[3/255,3/255,3/255],O=6,D=.85,I=2.8,e=.55;function N(s){return`vec3(${s.map(t=>t.toFixed(6)).join(", ")})`}function i(s){return s.toFixed(4)}export{O as D,N as a,D as b,I as c,a as d,c as e,e as f,i as g,T as h,n as i,o as j,_ as k};

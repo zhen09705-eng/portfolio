@@ -1,0 +1,1 @@
+import{b as r}from"./drawerController.B-0RaJmy.js";r();function d(){document.querySelectorAll("[data-study-article]").forEach(e=>{const t=document.getElementById(e.dataset.studyArticle??"")?.querySelector("[data-drawer-body]");t&&!t.contains(e)&&t.replaceChildren(e)})}d();window.__studyDrawerBound||(window.__studyDrawerBound=!0,document.addEventListener("astro:page-load",d));
